@@ -1,0 +1,278 @@
+
+body{
+    background: #191919;
+    text-align: center;
+    color: #097188;
+    font-weight: 100;
+    font-family: 'PT Serif', serif;
+    transition: all 1s;
+}
+
+header{
+    background-image: url(https://images7.alphacoders.com/361/361383.jpg);
+    background-position: center 40%;
+    background-size: cover;
+    
+}
+
+.lead{
+    
+    background-color: rgba(0, 0, 0, 0.8);
+    font-weight: 200;
+    font-size: 30px;
+    padding: 0px 10px;
+    border-radius: 40px;
+}
+h1{
+    margin-top: 40px;
+    font-size: 60px;
+}
+.fondo{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0px 10px;
+    border-radius: 40px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    background-image: linear-gradient(to right,transparent,#3c979e,transparent);
+    border: 0;
+    height: 0.1rem;
+    max-width: 100%;
+}
+.foto_perfil{
+    margin-top: 50px;
+    height: 100px;
+
+    border-radius: 150px;
+}
+
+.nombre{
+    font-size: 20px;
+    margin-right: 5px;
+    color: #097188;
+}
+
+.navbar-light .navbar-nav .nav-link.active ,.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover{
+   
+    color: #097188de ;
+}
+nav{
+    background-color: #04293A;
+   
+    box-shadow: 5px 5px 15px 5px #3E065F;
+    transition: all 1s;
+    
+}
+
+
+.navbar-brand{
+    font-size: 15px;
+}
+
+section{
+    background-color: #082032;
+    transition: all 1s;
+}
+.portfolio{
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.contenido_portfolio{
+    display: block;
+}
+
+.contenido_portfolio button{
+    box-sizing: border-box;
+    height: 350px;
+    width: 350px;
+    margin: 50px 0px;
+}
+
+.iconos img{
+    
+    height: 150px;
+    max-width: 200px;
+    padding: 5px;
+    background-color: #097188;
+    border-radius: 20px;
+    margin: 20px 0px;
+    border: 5px solid #097188;
+   
+    
+}
+
+.icono_css img{
+    padding: 0px 21.90px;
+}
+
+.icono_python img{
+    padding: 0px 6.14px;
+}
+
+.icono_c img{
+    padding: 0px 10.85px;
+}
+
+.icono_java img{
+    padding: 0px 31.74px;
+}
+
+.skillset{
+    background-color: #04293A;
+    padding-top: 20px ;
+}
+
+button{
+    border-radius: 40px;
+    transition: all 1s;
+}
+
+.experiencia button{
+    margin: 50px 0 5px 0;
+}
+.experiencia, .contacto{
+    padding-top: 20px;
+}
+
+
+
+h3{
+    padding-top: 50px ;
+}
+
+
+#Info{
+    background-color: #04293A;
+    padding-top: 20px;
+
+}
+.contacto{
+    background-color: #082032;
+}
+
+.boton{
+    width: 200px;
+    height: 60px;
+    margin: 50px 0;
+
+    
+}
+
+label{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.contacto hr{
+    margin-bottom: 70px;
+}
+.contacto h3{
+    padding-top: 50px;
+}
+
+.row h4{
+    margin: 0 auto 50px auto;
+}
+
+footer{
+    font-size: 10px;
+    margin-top: 30px;
+    height: 50px;
+}
+
+.redes{
+    height: 200px;
+}
+
+.redes img{
+    color: #097188;
+    width: 40px;
+    margin: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    margin: 0 30px;
+}
+
+.info1{
+    text-align: end;
+}
+
+.info2{
+    text-align: start;
+}
+
+h5,h6{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.inv{
+    color: #04293A;
+}
+
+.proy {
+    
+    position: relative;
+    top: 30%;
+    
+    transition: 1s;
+    transition: all  1s;
+    opacity: 0;
+
+    border-radius: 20px ;
+    background-color: #21bbdd;
+
+}
+.proy h2, .proy a{
+    margin: 20px 0;
+}
+button:hover{
+    
+    border-radius: 0px;
+    cursor:default;
+
+    
+}
+.ico{
+    transition: all 1s;
+}
+button:hover .proy {
+    opacity: 1;
+    top: 0%;
+    transition: all 1s;
+    
+}
+
+@media only screen and (max-width: 900px) {
+    .oculto1{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .oculto2{
+        display: none;
+    }
+}
+
+#Modo{
+    position: absolute;
+    top: 25%;
+    left: 95%;
+    z-index: 20;
+}
